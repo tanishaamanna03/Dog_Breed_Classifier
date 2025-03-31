@@ -25,7 +25,7 @@ This is a deep learning-based web application that can identify dog breeds from 
 - Kaggle Dataset (https://www.kaggle.com/datasets/miljan/stanford-dogs-dataset-traintest)
 - Stanford Dataset (http://vision.stanford.edu/aditya86/ImageNetDogs/)
 
-##Limitations and improvements
+## Limitations and improvements
 
 - The accuracy for breeds that look similar is not great (for example, it identifies a Boberman as a Black and Tan Coonhound in many instances).
 - The model was taking a long time to train and therefore, I used the batch size of 64. You can change/optimize the batch size to improve accuracy.
